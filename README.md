@@ -15,7 +15,7 @@ It organizes and documents those datums. It is **not** how an instance uses them
 network, registrar resources are MSS binary payloads served over the MSN protocol, and an
 instance reads them that way:
 
-- `/__mss/public/registry.mss` serves the registry still without a contract;
+- `<registrar endpoint>/__mss/public/stills/registry.mss` serves the registry still without a contract (for FND: https://micyte.com/__mss/public/stills/registry.mss);
 - an instance keeps its own card current by **declaring** it to the registrar
   (`POST <registrar endpoint>/__instance/registry/declaration`), signed with the key its card
   publishes. See *The declaration* in the core's
