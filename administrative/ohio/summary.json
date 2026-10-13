@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-10-13T14:24:10Z",
+  "counties": 88,
+  "counties_with_municipalities": 88,
+  "municipalities": 2232,
+  "by_jurisdiction": {
+    "city": 254,
+    "township": 1309,
+    "village": 669
+  },
+  "with_profile": 2251
+}
