@@ -6,8 +6,9 @@ document is shaped, and where an instance reaches it.
 The registrar is the instance that answers *who is this msn*. It keeps the **registry** (one
 contact card per msn: its local domain, website domain, published signature and contract
 endpoint), the entity collections (legal, natural and administrative entities), address
-nodes, and one profile document per **administrative entity**: Ohio's 88 counties and their
-townships, each with its boundary polygon.
+nodes, and one profile per **administrative entity**: Ohio's 88 counties and its cities,
+villages and townships, each with its boundary polygon (browsable as maps in
+[`administrative/ohio/`](administrative/ohio/)).
 
 ## What this repository is, and is not
 
